@@ -38,7 +38,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
 
                 </div>
                 {/* Header lower */}
-                <div className="header-lower nav_outerbox_background" style={{ backgroundColor: "var(--secondary-color)" }}>
+                <div className="header-lower nav_outerbox_background" style={{ backgroundColor: "var(--white-color)" }}>
                     <div className="large-container" >
                         <div className="outer-box">
                             <div className="logo-box" >

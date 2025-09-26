@@ -51,7 +51,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 <div className="menu-backdrop" onClick={handleMobileMenu} />
                 <div className="close-btn" onClick={handleMobileMenu}><i className="fas fa-times"></i></div>
                 <nav className="menu-box">
-                    <div className="nav-logo" style={{backgroundColor:"var(--secondary-color)"}}>
+                    <div className="nav-logo" style={{backgroundColor:"var(--white-color)"}}>
                         <a onClick={(e) => CloseSideMenu(e, "/", setMobileMenu(true))} className="newLogo" style={{ paddingLeft: "0px", marginTop: "20px" }}>
                             <img src={logo} alt="" style={{ transform: "scale(1)" }} />
                             {/* <span style={{ fontSize: "35px", fontWeight: "900", letterSpacing: "1px", color: "var(--white-color)", scale: "0.8" }}>DDR</span>
@@ -83,8 +83,8 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="contact-info">
                         <h4>Contact Info</h4>
                         <ul>
-                            <li>2106/7 HANUMAN COLONY,<br />
-                                ROHTAK, HARYANA, 124001</li>
+                            <li>2106/7, Hanuman Colony,<br />
+                                Rohtak, Haryana, 124001</li>
                             <li><LocalPhoneIcon style={{ fontSize: "18px" }} />&nbsp;<Link href="tel:+917082392820">+91 7082392820</Link></li>
                             <li><MailIcon style={{ fontSize: "18px" }} />&nbsp;<Link href="mailto:kohinnoorcreativeworld@gmail.com">kohinnoorcreativeworld@gmail.com</Link></li>
                         </ul>
