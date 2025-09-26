@@ -25,16 +25,16 @@ import CompareHomeLoan from "./HomeLoan/CompareHomeLoan";
 function HomePage() {
     return <div>
         <Layout headerStyle={1} >
-            <Banner />
+            {/* <Banner />
 
             <Services />
-            <HomeBanner />
+            <HomeBanner /> */}
             {/* <Features /> */}
             {/* <About /> */}
 
             {/* <Video /> */}
             {/* <Funfacts /> */}
-            <Testimonial />
+            {/* <Testimonial /> */}
             
             {/* <Subscribe /> */}
             <CompareHomeLoan />
