@@ -1,0 +1,207 @@
+.whychoose_ImageCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    height: 25rem;
+    border-radius: 10px;
+}
+
+.whychoose_ImageCard_Child {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: start;
+    width: 60%;
+    padding: 8px 50px 50px 50px;
+    gap: 40px;
+
+}
+
+.whychoose_ImageCard_Child_2 {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.whychoose_ImageCard_Child h1,
+.whychoose_ImageCard_Child h5,
+.whychoose_ImageCard_Child h6 {
+    color: var(--secondary-color);
+    font-weight: 200;
+}
+
+
+.whychoose_ImageCard_Child_2 img {
+    height: 100% !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.margin-bottom {
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+
+    .whychoose_ImageCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: -50px !important;
+        flex-wrap: wrap;
+    }
+
+    .whychoose_ImageCard_Child {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 30px !important;
+    }
+
+    .whychoose_ImageCard_Child_2 {
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .whychoose_ImageCard_Child h1,
+    .whychoose_ImageCard_Child h6 {
+        color: var(--white-color);
+    }
+
+    .whychoose_ImageCard_Child h6 {
+        font-weight: 200;
+    }
+
+
+    .whychoose_ImageCard_Child_2 img {
+        height: 100% !important;
+        width: 100vw;
+    }
+
+
+    .margin-bottom {
+        margin-bottom: 60px;
+        /* margin-top: 60px; */
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+
+    ._mt_ {
+        margin-top: 60px !important;
+    }
+
+    .whychoose_ImageCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        /* margin-top: 10px !important; */
+        flex-wrap: wrap;
+    }
+
+    .whychoose_ImageCard_Child {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 30px !important;
+    }
+
+    .whychoose_ImageCard_Child_2 {
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .whychoose_ImageCard_Child h1,
+    .whychoose_ImageCard_Child h6 {
+        color: var(--white-color);
+    }
+
+    .whychoose_ImageCard_Child h6 {
+        font-weight: 200;
+    }
+
+
+    .whychoose_ImageCard_Child_2 img {
+        height: 100% !important;
+        width: 100vw;
+    }
+
+
+    .margin-bottom {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+    ._mt_ {
+        margin-top: 60px !important;
+    }
+
+    .whychoose_ImageCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        /* margin-top: 10px !important; */
+        flex-wrap: wrap;
+    }
+
+    .whychoose_ImageCard_Child {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 30px !important;
+    }
+
+    .whychoose_ImageCard_Child_2 {
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .whychoose_ImageCard_Child h1,
+    .whychoose_ImageCard_Child h6 {
+        color: var(--white-color);
+    }
+
+    .whychoose_ImageCard_Child h6 {
+        font-weight: 200;
+    }
+
+
+    .whychoose_ImageCard_Child_2 img {
+        height: 100% !important;
+        width: 100vw;
+    }
+
+
+    .margin-bottom {
+        margin-bottom: 60px;
+    }
+
+}

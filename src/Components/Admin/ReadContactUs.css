@@ -1,0 +1,44 @@
+.table-container {
+    margin: 20px auto;
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr th {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 8px 10px 8px 10px;
+    text-align: left;
+}
+
+tr td {
+    background-color: white;
+    padding: 8px 10px 8px 10px;
+    text-align: left;
+    color: black;
+}
+
+/* tr td:nth-child(5) {
+    background-color: white;
+    padding: 8px 10px 8px 10px;
+    text-align: left;
+    color: black;
+    width: 60%;
+} */
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.red {
+    background-color: yellow;
+    color: black;
+}

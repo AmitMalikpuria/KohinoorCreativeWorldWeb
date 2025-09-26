@@ -1,0 +1,40 @@
+.bottom_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bottom_text_Child {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:500px) {
+
+    .bottom_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .bottom_text_Child {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .compare_mb{
+        margin-bottom: 20px !important;
+    }
+
+    .imgcompanies{
+        /* height: 50px !important;
+        width: 50px !important; */
+        transform: scale(1);
+    }
+}

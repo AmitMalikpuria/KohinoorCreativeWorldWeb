@@ -1,0 +1,128 @@
+
+/* Basic Floating WhatsApp Button */
+.whatsapp-button {
+    position: fixed; /* Stay in place during scrolling */
+    bottom: 20px;    /* Distance from the bottom */
+    right: 20px;     /* Distance from the right */
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    display: flex;      /* For icon and text alignment */
+    align-items: center; /* Vertically align items */
+    justify-content: center; /* Horizontally align items */
+    padding: 10px 15px;
+    border-radius: 50px; /* Circular shape */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    z-index: 999;       /* Ensure it stays on top of other elements */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #25D366; /* Darker WhatsApp green on hover */
+    color: var(--secondary-color);
+  }
+  
+  .whatsapp-button ._img {
+    width: 24px;       /* Adjust icon size as needed */
+    height: 24px;
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+  .whatsapp-button span {
+    font-size: 16px;
+  }
+  
+  /* Variations and Customizations */
+  
+  /* 1. Text-only button */
+  .whatsapp-button.text-only {
+    padding: 15px 20px;
+  }
+  
+  .whatsapp-button.text-only img {
+    display: none; /* Hide the icon */
+  }
+  
+  /* 2. Icon-only button */
+  .whatsapp-button.icon-only {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+  }
+  
+  .whatsapp-button.icon-only span {
+    display: none; /* Hide the text */
+  }
+  
+  .whatsapp-button.icon-only img {
+    margin-right: 0; /* No margin needed for icon only */
+  }
+  
+  /* 3. Different positions (e.g., bottom-left) */
+  .whatsapp-button.bottom-left {
+    left: 20px;
+    right: auto;
+  }
+
+  .whatsapp-button.bottom-right {
+    right: 20px;
+    left: auto;
+  }
+  
+  /* 4. Adjusting size and padding */
+  .whatsapp-button.large {
+    padding: 15px 25px;
+  }
+  
+  .whatsapp-button.large img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .whatsapp-button.large span {
+    font-size: 18px;
+  }
+  
+  /* 5. Adding animation (subtle pulse) */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .whatsapp-button.animated {
+    animation: pulse 2s infinite;
+  }
+  
+  /* Usage Example in HTML */
+  /* You'll need to include a WhatsApp icon image (e.g., whatsapp.png) */
+  /*
+  <a href="YOUR_WHATSAPP_LINK" target="_blank" class="whatsapp-button">
+    <img src="whatsapp.png" alt="WhatsApp">
+    <span>Chat with us</span>
+  </a>
+  
+  <a href="YOUR_WHATSAPP_LINK" target="_blank" class="whatsapp-button icon-only">
+    <img src="whatsapp.png" alt="WhatsApp">
+  </a>
+  
+  <a href="YOUR_WHATSAPP_LINK" target="_blank" class="whatsapp-button text-only">
+    <span>WhatsApp Chat</span>
+  </a>
+  
+  <a href="YOUR_WHATSAPP_LINK" target="_blank" class="whatsapp-button bottom-left animated">
+    <img src="whatsapp.png" alt="WhatsApp">
+    <span>Need Help?</span>
+  </a>
+  */

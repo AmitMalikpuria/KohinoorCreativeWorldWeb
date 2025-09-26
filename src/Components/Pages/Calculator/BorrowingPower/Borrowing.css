@@ -1,0 +1,161 @@
+.backgorund {
+    background-color: var(--white-color) !important;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+/* -------- */
+
+.btnleft {
+    border-radius: 25px 0px 0px 25px !important;
+}
+
+.btnright {
+    border-Radius: 0px 25px 25px 0px !important;
+}
+
+.btnactive {
+    border: 1.5px solid var(--theme-color) !important;
+    background-Color: var(--theme-color) !important;
+    font-Weight: bolder !important;
+    text-Transform: none !important;
+}
+
+.btnnotactive {
+    border: 1px solid var(--theme-color) !important;
+    background-Color: var(--white-color) !important;
+    font-Weight: bolder !important;
+    color: var(--secondary-color) !important;
+    text-Transform: none !important;
+}
+
+
+
+.Counter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.count-Sub {
+    color: var(--white-color);
+    background-color: var(--theme-color);
+    border-radius: 50px;
+    font-size: 35px;
+    padding: 5px 8px 5px 8px !important;
+}
+
+.count_text {
+    width: 4.5rem !important;
+    padding: 0px 1px 0px 1px !important;
+    border-radius: 15px !important;
+    color: var(--black-color) !important;
+    height: 3rem !important;
+    border: 1px solid var(--theme-color) !important;
+}
+
+.count-add {
+    color: var(--white-color);
+    background-color: var(--theme-color);
+    border-radius: 50px;
+    font-size: 23px;
+    padding: 5px 8px 5px 8px !important;
+}
+
+/* ---------- */
+
+.modifiedControlGroup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.Dollar {
+    position: absolute;
+    color: var(--theme-color);
+    font-weight: bolder;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.textModified {
+    padding: 0px 1px 0px 15px !important;
+    border-radius: 15px !important;
+    color: var(--black-color) !important;
+    height: 3rem !important;
+    border: 1px solid var(--theme-color) !important;
+    width: 100% !important;
+}
+
+/* --------- */
+
+._accordian {
+    border: 1px solid var(--theme-color) !important;
+    border-radius: 15px !important;
+
+}
+
+.iconcolor {
+    color: var(--theme-color) !important;
+}
+
+.icon_and_label {
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    column-Gap: 10px;
+}
+
+
+/* ---------Calculator Result */
+
+.borrow_result {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 7rem;
+    align-items: center;
+    flex-direction: row;
+}
+
+.borrow_result_child {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ----Advertise---- */
+
+.Advertise {
+    background-color: var(--theme-color);
+    border-radius: 20px;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.Advertise_Detail {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.Advertise_Detail h4 {
+    color: var(--white-color);
+    width: 60%;
+}
+
+.Advertise_Detail button[type="button"] {
+    color: var(--theme-color);
+    background-color: var(--white-color);
+    border-radius: 40px;
+}

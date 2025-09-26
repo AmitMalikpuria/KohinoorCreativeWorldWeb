@@ -1,0 +1,21 @@
+import VideoPopup from '../../../elements/VideoPopup';
+import videobg from '../../../assets/images/background/video-bg.jpg'
+
+
+export default function About() {
+    return (
+        <>   
+            <section className="video-section centred">
+                <div className="bg-layer parallax-bg" data-parallax='{"y": 100}' style={{ backgroundImage: `url(${videobg})` }}></div>
+                <div className="auto-container">
+                    <div className="inner-box">
+                    <h2>New Generation Financing Company</h2>
+                    <div className="video-btn">
+                        <VideoPopup />
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}

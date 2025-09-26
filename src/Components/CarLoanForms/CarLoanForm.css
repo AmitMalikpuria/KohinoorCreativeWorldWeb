@@ -1,0 +1,634 @@
+:root {
+    --fontsize10: 10px;
+    /* Example variable */
+
+    --fontsize11: 11px;
+    --fontsize12: 12px;
+    --fontsize13: 13px;
+    --fontsize14: 14px;
+    --fontsize15: 15px;
+    --fontsize16: 16px;
+    --fontsize17: 17px;
+    --fontsize18: 18px;
+    /* Example variable */
+}
+
+.CarLoan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--form-color);
+    padding-bottom: 100px;
+}
+
+.CarLoanHeader {
+    display: flex;
+    flex-direction: row;
+    font-weight: 300 !important;
+    color: var(--theme-color);
+    margin-top: 30px;
+    font-style: var(--inter);
+    font-size: 1.6rem;
+    justify-content: flex-start;
+}
+
+
+.CarLoanForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--form-color);
+}
+
+.CarLoanFormSteps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    border: 1.5px solid var(--shade-color);
+    border-radius: 2px;
+
+    width: 80vw;
+    background-color: var(--white-color);
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 33.33%;
+    padding: 6px 0px 2px 10px;
+    margin-top: 12px;
+}
+
+.border-bottom-theme-color {
+    border-bottom: 3px solid var(--theme-color);
+}
+
+.border-bottom-shade-color {
+    border-bottom: 3px solid var(--shade-color);
+
+}
+
+.disableElement {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.step1,
+.step2,
+.step3 {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.step-title {
+    color: var(--black-color);
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+
+.CarLoanFormContent {
+    padding: 15px 15px 0px 15px;
+    width: 80vw;
+    background-color: var(--white-color);
+    margin-bottom: -25px;
+}
+
+.content-title {
+    color: var(--theme-color);
+    font-size: 14px;
+    border-bottom: var(--text-color);
+    margin-bottom: -15px;
+    margin-top: 15px;
+}
+
+.content-title2 {
+    color: var(--black-color);
+    font-size: 13px;
+    border-bottom: var(--text-color);
+    margin-top: -15px;
+    margin-bottom: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.input-group-label {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width:350px) and (max-width: 850px) {
+
+    .step1,
+    .step2,
+    .step3 {
+        font-size: var(--fontsize11) !important;
+    }
+
+    .step-title {
+        font-size: var(--fontsize11) !important;
+    }
+
+    .input-group-label {
+        width: 40%;
+    }
+
+    .input-group-label p:first-child {
+        font-size: var(--fontsize11) !important;
+        line-height: 15px;
+        margin-bottom: 10px;
+        overflow-x: hidden;
+        overflow-y: visible;
+    }
+
+    .input-group-label p:nth-child(2) {
+        font-size: var(--fontsize10) !important;
+        line-height: 15px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .custom-label {
+        font-size: var(--fontsize11) !important;
+    }
+
+    .content {
+        gap: 5px !important;
+    }
+
+
+    .content-title2 {
+        font-size: var(--fontsize12) !important;
+        line-height: 20px;
+        margin-top: 10px !important;
+    }
+
+
+    .input-group {
+        width: 80% !important;
+    }
+
+    .CarLoanFormSteps {
+        width: 98vw;
+    }
+
+    .CarLoanFormContent {
+        width: 98vw;
+        height: auto !important;
+    }
+
+    .loansummary {
+        width: 98vw !important;
+        background-color: var(--white-color);
+        margin-bottom: 0px;
+    }
+
+    .instrunctions {
+        width: 100%;
+    }
+
+    .instrunctions-content p {
+        padding: 3px !important;
+        font-size: var(--fontsize11) !important;
+    }
+
+    .instrunctions-content ul li {
+        font-size: var(--fontsize11) !important;
+        list-style-type: disc;
+    }
+
+    .join-dollar {
+        width: 100% !important;
+    }
+
+    .form-group-dollar {
+        width: 30%;
+    }
+
+    .join-dollar input[type="text"],
+    .controls input[type="text"],
+    .controls input[type="email"],
+    .controls input[type="number"],
+    .controls select {
+        width: 100% !important;
+        padding: 2px 2px 2px 1px;
+        border: 1px solid var(--shade-color);
+        border-radius: 2px;
+        font-size: var(--fontsize11) !important;
+        height: 25px;
+        background-color: var(--white-color);
+    }
+
+    .controls input[type="text"]::placeholder {
+        font-size: var(--fontsize11) !important;
+    }
+
+    .loan-amount {
+        font-size: var(--fontsize12) !important;
+        font-weight: 700 !important;
+    }
+
+    .loan-amount-instruction {
+        font-size: var(--fontsize11) !important;
+    }
+
+    .liabilities {
+        margin-top: 70px !important;
+    }
+
+    .forceableChnages {
+        margin-top: 70px !important;
+    }
+
+    .renTalIncome {
+        margin-top: 30px;
+    }
+
+    .btnleft {
+        border-radius: 5px 0px 0px 5px !important;
+        height: 20px !important;
+        font-size: var(--fontsize10) !important;
+    }
+
+    .btnright {
+        border-Radius: 0px 5px 5px 0px !important;
+        height: 20px !important;
+
+    }
+
+    .btnactive {
+        border: 2px solid var(--theme-color) !important;
+        background-Color: var(--theme-color) !important;
+        font-Weight: 300 !important;
+        text-Transform: none !important;
+        height: 20px !important;
+        font-size: var(--fontsize10) !important;
+    }
+
+    .btnnotactive {
+        border: 2px solid var(--theme-color) !important;
+        background-Color: var(--white-color) !important;
+        font-Weight: 300 !important;
+        color: var(--text-color) !important;
+        text-Transform: none !important;
+        height: 20px !important;
+        font-size: var(--fontsize10) !important;
+    }
+
+    .liabilities-heads {
+        color: var(--theme-color) !important;
+        font-size: 16px !important;
+        font-weight: 300;
+    }
+
+    .forceableChnagesTitle1 {
+        font-size: var(--fontsize11) !important;
+        color: var(--black-color) !important;
+    }
+
+    .forceableChnagesTitle2 {
+        color: var(--text-color) !important;
+        font-size: var(--fontsize10) !important;
+    }
+
+    .dobclass {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 80% !important;
+        gap: 3px;
+    }
+
+    .dobclass .dobelement {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width:851px) and (max-width:4000px) {
+
+    .dobclass {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .dobclass .dobelement {
+        width: 15% !important;
+    }
+}
+
+
+
+.input-group-label p {
+    color: var(--black-color);
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.input-group {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.input-group label {
+    color: var(--theme-color);
+    font-size: var(--fontsize15);
+}
+
+.controls input[type="text"],
+.controls input[type="email"],
+.controls input[type="number"],
+.controls select {
+    width: 45%;
+    padding: 3px 3px 3px 1px;
+    border: 1px solid var(--shade-color);
+    border-radius: 2px;
+    font-size: 14px;
+    height: 30px;
+    background-color: var(--white-color);
+}
+
+
+
+.controls input[type="text"]::placeholder {
+    color: var(--shade-color);
+    font-size: 13px;
+}
+
+.custom-radio {
+    color: var(--theme-color) !important;
+    font-size: 40px !important;
+    transform: scale(1.5);
+    font-weight: 300 !important;
+}
+
+.custom-label {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.btnleft {
+    border-radius: 5px 0px 0px 5px !important;
+    height: 30px;
+
+}
+
+.btnright {
+    border-Radius: 0px 5px 5px 0px !important;
+    height: 30px;
+
+}
+
+.btnactive {
+    border: 5px solid var(--theme-color) !important;
+    background-Color: var(--theme-color) !important;
+    font-Weight: 300 !important;
+    text-Transform: none !important;
+    height: 30px;
+    font-size: 14px !important;
+}
+
+.btnnotactive {
+    border: 1px solid var(--theme-color) !important;
+    background-Color: var(--white-color) !important;
+    font-Weight: 300 !important;
+    color: var(--text-color) !important;
+    text-Transform: none !important;
+    height: 30px;
+    font-size: 14px !important;
+}
+
+.custom-checkbox {
+    color: var(--theme-color) !important;
+    font-size: 40px !important;
+    transform: scale(1.5);
+    font-weight: 100 !important;
+    margin-bottom: -15px !important;
+
+}
+
+.custom-checkbox[type="checkbox"]::che {
+    color: var(--theme-color) !important;
+    font-size: 40px !important;
+    transform: scale(1.5);
+    font-weight: 300 !important;
+
+}
+
+.instrunctions {
+    border-top: 1px solid var(--theme-color);
+    border-bottom: 1px solid var(--theme-color);
+    background-color: var(--theme-fade-color);
+    width: 90%;
+}
+
+.instrunctions-content {
+    padding: 20px;
+}
+
+.instrunctions-content p {
+    color: var(--theme-color);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.instrunctions-content ul li {
+    color: var(--theme-color);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 2px 0px 2px 0px;
+}
+
+.custom-list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    color: var(--theme-color);
+}
+
+.loan-amount {
+    color: var(--theme-color);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.loan-amount-instruction {
+    color: var(--text-color);
+    font-size: 13px;
+    font-weight: 300;
+    width: 90%;
+    line-height: 1.4;
+}
+
+.join-dollar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 45%;
+}
+
+.form-group-dollar {
+    width: 15%;
+    padding: 2px 2px 2px 14px;
+    border: 1px solid var(--shade-color);
+    border-radius: 2px 0px 0px 2px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 30px;
+    color: var(--text-color);
+    background-color: var(--form-color);
+}
+
+.addincome {
+    width: 40%;
+    color: var(--text-color);
+    background-color: var(--white-color);
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid var(--theme-color);
+    padding: 6px 20px 6px 20px;
+}
+
+.addincome:hover {
+    background-color: var(--theme-color);
+    color: var(--white-color);
+}
+
+.liabilities-heads {
+    color: var(--theme-color) !important;
+    font-size: 14px !important;
+    font-weight: 300;
+}
+
+.loans-heads {
+    color: var(--black-color) !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+
+.btnAdd {
+    padding: 0px 10px 0px 10px;
+    background-color: var(--theme-color);
+    font-size: 14px;
+}
+
+
+.label-subtitle {
+    color: var(--text-color) !important;
+    font-size: 12px !important;
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    line-height: 15px;
+    margin-top: 7px;
+}
+
+.forceableChnagesTitle1 {
+    font-size: var(--fontsize14) !important;
+    color: var(--black-color) !important;
+
+}
+
+.forceableChnagesTitle2 {
+    color: var(--text-color) !important;
+    font-size: var(--fontsize12) !important;
+}
+
+.loansummary {
+    width: 80vw;
+    background-color: var(--white-color);
+    margin-bottom: 0px;
+}
+
+.loansummary .SummaryHead {
+    background-color: var(--white-color);
+    height: 3rem;
+    background-color: var(--shade-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loansummary .SummaryHead h6 {
+    font-size: var(--fontsize17);
+    color: var(--black-color);
+    padding-bottom: 0px;
+}
+
+.bgBorder {
+    border: 3px solid var(--shade-color);
+}
+
+.SummaryDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width:250px) and (max-width:600px) {
+    .SummaryDetail {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+}
+
+.SummaryDetailChild {
+    padding: 20px;
+}
+
+.SummaryDetailChild h6 {
+    color: var(--black-color);
+    font-size: 22px;
+}
+
+.Information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 15px 15px 15px;
+    gap: 10px;
+    
+}

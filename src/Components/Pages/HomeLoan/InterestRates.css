@@ -1,0 +1,157 @@
+.img__Card {
+    width: 18rem !important;
+    height: 18rem !important;
+}
+
+.interestCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+._mycard {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.interestCard_Child {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--theme-color);
+    padding: 10px 20px 10px 20px;
+    gap: 8px;
+    align-items: center;
+}
+
+.interestCard_subChild1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.interestCard_subChild2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.interestCard_subChild1 h1,
+.interestCard_subChild1 p,
+.interestCard_subChild2 p {
+    color: var(--white-color);
+}
+
+.interestCard_subChild1 h1 {
+    font-weight: 400;
+    font-size: 56px;
+}
+
+.interestCard_subChild1 p,
+.interestCard_subChild2 p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.compare-rates__border {
+    border-bottom: 2px solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-image-source: linear-gradient(90deg, var(--theme-color) 0%, rgba(0, 104, 117, 0) 35%, rgba(0, 104, 117, 0) 65%, var(--theme-color) 100%);
+    border-image-slice: 1;
+}
+
+@media (max-width: 500px) {
+    .interestCard {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .img__Card {
+        margin-top: -20px;
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+
+    ._mycard {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+       
+    }
+
+    .interestCard_Child {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--theme-color);
+        padding: 10px 20px 10px 20px;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .compare-rates__border {
+        display: none;
+        border-bottom: 2px solid;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-image-source: linear-gradient(90deg, rgb(125 216 86) 0%, rgba(0, 104, 117, 0) 35%, rgba(0, 104, 117, 0) 65%, rgb(125 216 86) 100%);
+        border-image-slice: 1;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width:1200px) {
+    .interestCard {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .img__Card {
+        margin-top: -20px;
+        width: 10rem !important;
+        height: 10rem !important;
+        display: none;
+    }
+
+    ._mycard {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+       
+    }
+
+    .interestCard_Child {
+        display: flex;
+        flex-direction: row;
+        background-color: var(--theme-color);
+        padding: 10px 20px 10px 20px;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .compare-rates__border {
+        display: none;
+        border-bottom: 2px solid;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-image-source: linear-gradient(90deg, rgb(125 216 86) 0%, rgba(0, 104, 117, 0) 35%, rgba(0, 104, 117, 0) 65%, rgb(125 216 86) 100%);
+        border-image-slice: 1;
+    }
+
+}
