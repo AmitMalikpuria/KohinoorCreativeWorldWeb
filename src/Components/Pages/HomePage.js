@@ -26,7 +26,7 @@ function HomePage() {
     return <div>
         <Layout headerStyle={1} >
             <Banner />
-            <Subscribe />
+            {/* <Subscribe />
             <Services />
             <HomeBanner />
             <Features />
@@ -34,7 +34,7 @@ function HomePage() {
 
             <Video />
             <Funfacts />
-            <Testimonial />
+            <Testimonial /> */}
 
 
             <CompareHomeLoan />
