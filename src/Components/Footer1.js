@@ -29,10 +29,10 @@ export default function Footer1() {
                                             <span style={{ fontSize: "20px", fontWeight: "900", color: "var(--secondary-color)", letterSpacing: "1.5px", fontFamily: "var(--manrope)" }}>Dream Dwell Realtors</span>
                                         </Link>
                                     </figure> */}
-                                    <p style={{ fontFamily: "var(--manrope)", fontWeight: "300" }}>Kohinnoor Creative World is an initiative to explore and celebrate the creative legacy of Haryana and its rich folk culture. </p>
+                                    <p style={{ fontFamily: "var(--manrope)", fontWeight: "300",marginBottom:"20px",fontSize:"18px" }}>Kohinnoor Creative World is an initiative to explore and celebrate the creative legacy of Haryana and its rich folk culture. </p>
                                     <ul className="social-links">
                                         <li>
-                                            <a href="https://wa.me/917082392820?text=Hii%20Kohinoor..." target="_blank">
+                                            <a href="https://wa.me/917082392820?text=Hi%20Kohinoor..." target="_blank">
                                                 <WhatsAppIcon style={{ fontSize: "20px" }} />
                                             </a>
                                         </li>

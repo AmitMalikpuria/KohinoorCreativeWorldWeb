@@ -42,11 +42,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="large-container" >
                         <div className="outer-box">
                             <div className="logo-box" >
-                                <div className="shape" ></div>
+                                <div className="shape"></div>
                                 <figure className="logo"><Link to="/"><img src={logo} alt="" className="logo_shape" /></Link></figure>
-                                {/* <figure className="logo"><Link to="/" className="newLogo">
-                                    <span style={{ fontSize: "35px", fontWeight: "900!important", letterSpacing: "1.5px", fontFamily: "var(--manrope)" }}>DDR</span>
-                                    <span style={{ fontSize: "20px", fontWeight: "900", color: "var(--secondary-color)", letterSpacing: "1.5px", fontFamily: "var(--manrope)" }}>Dream Dwell Realtors</span><br /></Link></figure> */}
+                               
                             </div>
                             <div className="menu-area">
                                 {/* Mobile Navigation Toggler */}

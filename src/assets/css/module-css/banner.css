@@ -88,9 +88,9 @@
 }
 
 .banner-carousel .content-box h2 span{
-  color: var(--theme-color) !important;
+  color: var(--text-color-yellow) !important;
   font-weight: 800 !important;
-  font-size: 70px !important;
+  font-size: 60px !important;
 }
   
 .banner-carousel .swiper-slide-active .content-box h2{
@@ -208,9 +208,9 @@
   display: inline-block;
   width: 70px;
   height: 70px;
-  line-height: 76px;
+  line-height: 60px;
   text-align: center;
-  background: #fff;
+  background: var(--text-color-yellow);
   font-size: 30px;
   color: #000;
   border-radius: 50%;
